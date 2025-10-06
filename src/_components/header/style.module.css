@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 80px;
+}
+
+.header_contact_list {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.alignment_item {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    padding: 16px 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding: 16px 20px;
+  }
+}
